@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.11
 MAINTAINER Daniel Guerra
 ADD /apk /apk
 RUN cp /apk/.abuild/-58b83ac3.rsa.pub /etc/apk/keys
